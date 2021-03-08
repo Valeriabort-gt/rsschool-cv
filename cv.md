@@ -9,7 +9,8 @@
 ---
 (From 2009 to 2020) Irininskaya gymnasium   
 (Now studying from 2020) P.O.Sukhoi State Technical University of Gomel  
-> “The roots of education are bitter, but the fruit is sweet.” – Aristotle. 
+> “The roots of education are bitter, but the fruit is sweet.” – Aristotle.   
+
 ## Experience
 ---
 My goal is to become a specialist in IT sphere.   
