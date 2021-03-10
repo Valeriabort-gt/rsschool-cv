@@ -10,55 +10,71 @@
 </head>
 
 <body>
+    <div class="wrapper">
+        <header>
+            <h1>HTML/CSS & Git Task</h1>
+        </header>
 
-    <header>
-        <div class="heading">
-            <span>HTML/CSS & Git Task</span>
-        </div>
-    </header>
-
-    <aside>
-        <div class="profile">
-            <img id="avatar" src="avatar.png" width="160" height="160" alt="avatar" title="avatar">
-            <p id="name">Bortnovskaya Valeria</p>
-            <div id="information" class="letter">
-                <div>Student. 18 years</div>
-                <div>Belarus, Gomel</div>
-                <div>Social</div>
-                <ul>
-                    <li style="list-style: circle"><a href="https://www.linkedin.com/in/valeria-b-74aa05207/">Linked</a>
-                    </li>
-                    <li style="list-style: circle"><a href="mailto:lbortnovskaya@list.ru">E-mail</a></li>
-                </ul>
+        <aside>
+            <div class="profile">
+                <img id="avatar" src="avatar.png" width="160" height="160" alt="avatar" title="avatar">
+                <p id="name">Bortnovskaya Valeria</p>
+                <nav id="information" class="letter">
+                    <div>Student. 18 years</div>
+                    <div>Belarus, Gomel</div>
+                    <div>Social</div>
+                    <ul>
+                        <li style="list-style: circle"><a
+                                href="https://www.linkedin.com/in/valeria-b-74aa05207/">Linked</a>
+                        </li>
+                        <li style="list-style: circle"><a href="mailto:lbortnovskaya@list.ru">E-mail</a></li>
+                    </ul>
+                </nav>
             </div>
-        </div>
-    </aside>
+        </aside>
 
-    <main>
-        <h1>Education</h1>
-        <p>(From 2009 to 2020) Irininskaya gymnasium</p>
-        <p>(Now studying from 2020) P.O.Sukhoi State Technical University of Gomel</p>
-        <h1>Experience</h1>
-        <p>My goal is to become a specialist in IT sphere. I'm easily trained, have communication skills, disciplined
-            and self-motivated. </p>
-        <p> Basic HTML/CSS/JS</p>
-        <h1>Languages</h1>
-        <p>Russian</p>
-        <p>English A2</p>
-        <h1>Hobbies</h1>
-        <p>Elevate mind, travelling, do sport. Visit theatre, cinema, gallery and paiting</p>
-    </main>
+        <main>
+            <h2>Education</h2>
+            <p>(From 2009 to 2020) Irininskaya gymnasium</p>
+            <p>(Now studying from 2020) P.O.Sukhoi State Technical University of Gomel</p>
+            <h2>Experience</h2>
+            <p>My goal is to become a specialist in IT sphere. I'm easily trained, have communication skills,
+                disciplined
+                and self-motivated. </p>
+            <h2>Hard skills (Basic level)</h2>
+            <ul>
+                <li>HTML</li>
+                <li>CSS</li>
+                <li>JS</li>
+            </ul>
+            <h2>Code example</h2>
+            <code>
+                sum = parseFloat(prompt('Введите общую сумму покупки', '')); <br>
+                sale = parseInt(prompt('Введите скидку', '')); <br>
+                    sale = (sum*sale)/100; <br>
+                    sumSale=sum-sale; <br>
+                    alert('Введите общую сумму покупки = ' + sum) <br>
+                    alert('Введите скидку = ' + sale) <br>
+                    alert('Сумма со скидкой = ' + sumSale)
+            </code>
+            <h2>Languages</h2>
+            <p>Russian</p>
+            <p>English A2</p>
+            <h2>Hobbies</h2>
+            <p>Elevate mind, travelling, do sport. Visit theatre, cinema, gallery and paiting</p>
+        </main>
 
-    <footer>
-        <div class="footer_date">
-            <span>Date of creation: 03/03/2021</span>
-        </div>
-        <div class="footer_logotype"><a href="https://rs.school/js/"><img src="logo_rsschool.png" width="130"
-                    height="60" alt="logotype_rsschool" title="logotype_rsschool"></a>
-            <a href="https://github.com/Valeriabort-gt"><img src="logo_github.png" width="60" height="60"
-                    alt="logotype_github" title="logotype_github"></a>
-        </div>
-    </footer>
+        <footer>
+            <div class="footer_date">
+                <span>Date of creation: 03/03/2021</span>
+            </div>
+            <div class="footer_logotype"><a href="https://rs.school/js/"><img src="logo_rsschool.png" width="130"
+                        height="60" alt="logotype_rsschool" title="logotype_rsschool"></a>
+                <a href="https://github.com/Valeriabort-gt"><img src="logo_github.png" width="60" height="60"
+                        alt="logotype_github" title="logotype_github"></a>
+            </div>
+        </footer>
+    </div>
 </body>
 
 </html>
