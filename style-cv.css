@@ -8,6 +8,8 @@ header{
     text-align: center;
     background-color: #F8F9FA;
     box-shadow: 0 0 10px rgba(0, 0, 255, 0.13);
+}
+h1{
     font-family: Century Gothic;
     color: rgb(103, 39, 163);
     font-size: 28px;
@@ -15,9 +17,8 @@ header{
     line-height: 30px;
     letter-spacing: 0em;
 }
-.heading{
-    position: relative;
-    top: 10px;    
+.wrapper{
+    margin: 0 auto;
 }
 aside{
     display: flex;
@@ -45,7 +46,7 @@ aside{
     letter-spacing: 0em;
     text-align: left;
 }
-#information{
+nav{
     padding: 10px 17px;
     position: absolute;
     top: 300px;
@@ -78,7 +79,7 @@ main{
     width: 1000px;
     right: 0;
     top: 70px;
-    height: 650px;
+    height: 800px;
     background: #fff;
     border-radius: 10px;
     font-family: Century Gothic;
@@ -88,7 +89,7 @@ main{
     letter-spacing: 0em;
     text-align: left;
 }
-h1{
+h2{
     font-size: 20px;
     font-weight: 600;
     border-bottom: 2px solid currentColor;
@@ -97,7 +98,7 @@ footer{
     display: flex;
     text-align: center;
     position: absolute;
-    top: 770px;
+    top: 1150px;
     left: 0;
     height: 130px;
     width: 100%;
